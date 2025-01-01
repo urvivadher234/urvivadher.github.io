@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -100,7 +100,7 @@ body {
   padding: 20px;
 }
 
-/* Tabs */
+
 .tabs {
   display: flex;
   gap: 10px;
@@ -134,7 +134,7 @@ body {
   line-height: 1.6;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .navbar {
     flex-wrap: wrap;
