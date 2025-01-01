@@ -1,14 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Job Post</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Job Listings</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <div class='sk-ww-linkedin-page-jobs' data-embed-id='25504157'></div>
-        <script src='https://widgets.sociablekit.com/linkedin-page-jobs/widget.js' defer></script>
+  <div>
+    <nav class="navbar">
+    
+      <div class="logo">
+        <img
+          src="https://via.placeholder.com/32" // Replace with LinkedIn logo URL
+          alt="LinkedIn Logo"
+        />
+      </div>
+
+      <div class="search-section">
+        <input type="text" class="search-input" placeholder="Amazon" />
+        <input type="text" class="location-input" placeholder="India" />
+        <button class="search-button">Search</button>
+      </div>
+
+      <div class="nav-icons">
+        <FaHome class="icon" />
+        <FaUserFriends class="icon" />
+        <FaBriefcase class="icon" />
+        <FaEnvelope class="icon" />
+        <FaBell class="icon" />
+      </div>
+    </nav>
+
+    <div class="filter-bar">
+      <button class="filter-button active">Jobs</button>
+      <button class="filter-button">Date posted ▼</button>
+      <button class="filter-button">Experience level ▼</button>
+      <button class="filter-button">Company ▼</button>
+      <button class="filter-button">Remote ▼</button>
+      <button class="filter-button">Easy Apply</button>
+      <button class="filter-button">All filters</button>
     </div>
+    
+  </div>
+  <div class="container">
+    <aside class="sidebar">
+     
+      <div class='sk-ww-linkedin-page-jobs' data-embed-id='25504389'></div><script src='https://widgets.sociablekit.com/linkedin-page-jobs/widget.js' defer></script>
+      
+    </aside>
+    <main class="main-content">
+      <div class="profile-header">
+        <div class="banner">
+          <!-- Logo -->
+          <div class="logo">
+            <img src="https://cdn0.iconfinder.com/data/icons/most-usable-logos/120/Amazon-512.png" alt="Company Logo">
+          </div>
+    
+          <!-- Info -->
+          <div class="info">
+            <h1>Amazon</h1>
+            <p>Software Development · Seattle, WA · 33M followers · 10K+ employees</p>
+            <p>🏆 Ranked on LinkedIn Top Companies</p>
+          </div>
+    
+          <!-- Actions -->
+          <div class="actions">
+            <button class="follow">+ Follow</button>
+            <button class="visit">Visit Website</button>
+            
+          </div>
+        </div>
+      </div>
+    
+      <!-- Tabs -->
+      <div class="tabs">
+        <div class="tab active">Home</div>
+        <div class="tab">About</div>
+        <div class="tab">Posts</div>
+        <div class="tab">Jobs</div>
+        <div class="tab">Life</div>
+        <div class="tab">People</div>
+      </div>
+    
+      <!-- Content Section -->
+      <div class="content">
+        <h2>Overview</h2>
+        <p>
+          Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. 
+          We are driven by the excitement of building technologies, inventing products, and providing services that change lives. 
+          We embrace new ways of doing things, make decisions quickly, and are not afraid to fail. 
+          We have the scope and capabilities of a large company and the spirit and heart of a small one.
+        </p>
+      </div>
+    </main>
+  </div>
+  
+  <script src="./script.js"></script>
 </body>
 </html>
+
